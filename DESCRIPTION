@@ -1,0 +1,27 @@
+Package: CapsisWebAPI4R
+Type: Package
+Title: A Client for the Capsis Web API
+Version: 1.0.0
+Author: Jean-François Lavoie and Mathieu Fortin, Canadian Forest Service
+Maintainer: Mathieu Fortin <mathieu.fortin.re@gmail.com>
+Copyright: His Majesty the King in right of Canada
+Description: A client that makes http request to Capsis Web API.
+URL: https://github.com/CWFC-CCFB/CapsisWebAPI4R
+Depends:
+  R (>= 4.4.0) 
+Imports:
+  CFSCommonGYModelWebAPI4R (>= 1.0.0),
+  methods (>= 4.4.0),
+  httr (>= 1.4.7),
+  jsonlite (>= 1.8.8),
+  utils (>= 4.4.0)
+Remotes:
+    CWFC-CCFB/CFSCommonGYModelWebAPI4R
+License: LGPL-3 + file LICENSE
+BugReports: https://github.com/CWFC-CCFB/CapsisWebAPI4R/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

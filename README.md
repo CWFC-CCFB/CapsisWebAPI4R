@@ -6,21 +6,22 @@ The CapsisWebAPI4R package
 ## Introduction
 
 This R package implements a client for Capsis Web API. It allows running simple simulation with the Capsis platform. At the moment,
-there is only two models available: Artemis-2009 and Artemis-2014
+there are only two models available: Artemis-2009 and Artemis-2014
 
 Further information about the Capsis platform is available at https://capsis.cirad.fr/capsis/home.
 
 ## Copyright 
 
-Artemis-2009
-Copyright &copy; 2008-2012 Gouvernement du Québec
-Copyright &copy; 2012-2025 His Majesty the King in right of Canada
+Artemis-2009<br> 
+
+Copyright &copy; 2008-2012 Gouvernement du Québec<br>
+Copyright &copy; 2012-2025 His Majesty the King in right of Canada<br>
 Authors: Jean-François Lavoie (Arcane Technologies) and Mathieu Fortin (Canadian Forest Service)
 
-Artemis-2014
+Artemis-2014<br>
 Copyright &copy; 2014-2025 Gouvernement du Québec
 
-Capsis Web API and the CapsisWebAPI4R package:
+Capsis Web API and the CapsisWebAPI4R package<br>
 Copyright &copy; 2022-2025 His Majesty the King in Right of Canada  
 
 ## License
@@ -45,15 +46,13 @@ You can report any bug at https://github.com/CWFC-CCFB/CapsisWebAPI4R/issues.
 Mathieu Fortin (mathieu.fortin@nrcan-rncan.gc.ca)
 
 
-
-
 ## Installation
 
-All you need to install is the OSMWebAPI4R package and this can be done through the remotes package, which is available in CRAN. 
+All you need to install is the CapsisWebAPI4R package and this can be done through the remotes package, which is available in CRAN. 
 
 Once the remotes package has been installed, you just have to enter:
 
 ~~~R
-remotes::install_github("CWFC-CCFB/QcPSP")
+remotes::install_github("CWFC-CCFB/CapsisWebAPI4R")
 ~~~
 
